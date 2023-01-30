@@ -1,5 +1,15 @@
 #!/usr/bin/python3
+"""Defines a function for paschal traingle"""
+
 def pascal_triangle(n):
+    """Function for paschals traingle
+       
+    Args:
+        n: The number of times to calculate paschals
+
+    Returns: 
+        A new traingle of length n
+    """
 
     if n <= 0:
 
