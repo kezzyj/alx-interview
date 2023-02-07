@@ -33,4 +33,4 @@ def minOperations(n):
 
         min_operations += 1
 
-    return
+    return operations
