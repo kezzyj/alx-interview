@@ -22,6 +22,7 @@ def count_primes(nums):
         if is_prime:
             count += 1
     return count
+
 def isWinner(x, nums):
     """
     Determines the winner of a game of prime numbers.
