@@ -11,6 +11,7 @@ def count_primes(nums):
     Returns:
         int: the number of prime numbers between 1 and n
     """
+
     count = 0
 
     for i in range(2, nums + 1):
@@ -23,6 +24,7 @@ def count_primes(nums):
             count += 1
     return count
 
+
 def isWinner(x, nums):
     """
     Determines the winner of a game of prime numbers.
@@ -32,6 +34,7 @@ def isWinner(x, nums):
     Returns:
         string: the winner of the game (Ben or Maria)
     """
+
     if not x or not nums:
         return None
     ben_score = 0
