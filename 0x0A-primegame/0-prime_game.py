@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""
+	Function for playing a prime game
+"""
 
 def count_primes(nums):
     """
