@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 def count_primes(nums):
     """
     check prime numbers between 1 and n
